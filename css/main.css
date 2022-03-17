@@ -1502,9 +1502,9 @@ header{
 }
 
 .intro-info {
-	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-top: 4.5rem;
+	/* margin-right: -5px; */
+	margin-left: -80px;
 }
 .intro-info img {
 	height: 10rem;
