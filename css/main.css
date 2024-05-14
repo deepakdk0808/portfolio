@@ -273,6 +273,16 @@ ol {
 ul {
 	list-style: disc;
 }
+
+#main-nav-wrap ul li a{
+    
+	color: rgba(255, 0, 0, 0.476);
+}
+
+#main-nav-wrap ul li {
+    list-style-type: none;
+	margin-left: 50px;
+}
 li {
 	display: list-item;
 }
@@ -1798,12 +1808,27 @@ header{
 	background: #FFFFFF;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	
 }
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	/* border: 5px solid black; */
+	/* gap:20px; */
+	
 }
+
+#portfolio .folio-item img {
+	width: 100%;
+	height: auto;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
 #portfolio .folio-item img {
 	vertical-align: middle;
 	-moz-transition: all 0.5s ease-in-out;
@@ -1811,6 +1836,7 @@ header{
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+
 }
 
 #portfolio .overlay {
@@ -1831,6 +1857,7 @@ header{
 	display: table;
 	width: 100%;
 	height: 90%;
+	
 }
 #portfolio .folio-item-cell {
 	display: table-cell;
