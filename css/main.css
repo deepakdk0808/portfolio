@@ -281,8 +281,16 @@ ul {
 
 #main-nav-wrap ul li {
     list-style-type: none;
-	margin-left: 50px;
+	margin-left: 10px;
 }
+
+#main-nav-wrap ul li.current a {
+    /* Add your styles here. For example: */
+    color: rgb(0, 89, 255);
+    font-weight: bold;
+}
+
+
 li {
 	display: list-item;
 }
