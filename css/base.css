@@ -746,11 +746,13 @@ textarea {
 
 	.block-mob-1-2 .bgrid {
 		width: 50%;
+		
 	}
 
 	.block-mob-full .bgrid {
 		width: 100%;
 		clear: both;
+		
 	}
 
 	[class*="block-mob-"] .bgrid:nth-child(n) {
