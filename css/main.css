@@ -1110,7 +1110,7 @@ header .row {
 }
 header .top-bar {
 	/* display:; */
-	background: #000000;
+	/* background: #000000; */
 	min-width: 220px;
 	min-height: 66px;
 	position: relative;
@@ -1118,6 +1118,7 @@ header .top-bar {
 	top: 0;
 	margin-left: 0px;
 }
+
 header .logo {
 	float: left;
 	/* margin-left: 20px; */
@@ -1139,7 +1140,7 @@ header .logo a {
 	/* background-size: 113px 30px; */
 }
 header{
-	background-color: black;
+	/* background-color: black; */
 	width: 220px;
 	height:66px;
 	display: inline;
