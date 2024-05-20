@@ -1827,6 +1827,7 @@ header{
 	
 }
 
+
 #portfolio .folio-item img {
 	width: 100%;
 	height: auto;
@@ -1900,6 +1901,7 @@ header{
 }
 #portfolio .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
+	border: none;
 }
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
